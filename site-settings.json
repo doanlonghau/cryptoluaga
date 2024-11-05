@@ -1,0 +1,270 @@
+{
+	"version": "2.6.2",
+	"mailpoet_api_key": "your_mailpoet_api_key",
+	"mailpoet_list_id": "3",
+	"subcription_widget": {
+		"enable": true,
+		"title": "Stay up to date",
+		"description": "Get notified when I publish something new, and unsubscribe at any time.",
+		"placeholder": "Enter your email address",
+		"success_message": "Thank you for subscribing. You're in!",
+		"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+	},
+	"newsletter_section": {
+		"enable": true,
+		"title": "Join our newsletter 🎉",
+		"description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
+		"right_image": "/images/SVG-subcribe2.png",
+		"features_list": ["Create a free account.", "Write your stories."]
+	},
+	"top_banner": {
+		"enable": true,
+		"description": "-50% Intro price for the next 72 hours only!.",
+		"end_link": {
+			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
+			"text": "Buy now  →",
+			"new_tab": true
+		}
+	},
+	"top_category_section": {
+		"enable": true,
+		"title": "Discover top 10 categories",
+		"sub_title": "Let's explore the most popular categories"
+	},
+	"site_info": {
+		"site_title": "Ncmaz Nextjs Blog",
+		"site_description": "Ncmaz Nextjs Blog headless WordPress",
+		"site_keywords": "Ncmaz Nextjs Blog",
+		"site_author": "ChisNghiax",
+		"site_email": "Your Email",
+		"site_phone": "Your Phone",
+		"site_address": "Your Address",
+		"site_city": "Your City",
+		"site_state": "Your State",
+		"site_zip": "Your Zip",
+		"site_country": "Your Country",
+		"site_url": "https://www.yoursite.com",
+		"site_logo": "/logo.png",
+		"site_logo_light": "/logo-light.png",
+		"site_favicon": "/favicon.png"
+	},
+	"site_socials": [
+		{
+			"name": "facebook",
+			"url": "https://www.facebook.com/yourfacebookpage",
+			"icon": "/images/socials/facebook.svg",
+			"description": "Follow us on Facebook"
+		},
+		{
+			"name": "twitter",
+			"url": "https://twitter.com/yourtwitterpage",
+			"icon": "/images/socials/x-twitter.svg",
+			"description": "Follow us on Twitter"
+		},
+
+		{
+			"name": "github",
+			"url": "https://www.github.com/yourmediumpage",
+			"icon": "/images/socials/github.svg",
+			"description": "Follow us on Github"
+		},
+		{
+			"name": "tiktok",
+			"url": "https://www.tiktok.com/yourtiktokpage",
+			"icon": "/images/socials/tiktok.svg",
+			"description": "Follow us on Tiktok"
+		}
+	],
+	"site_header": {
+		"desktop_header": {
+			"header_style": "style3"
+		}
+	},
+	"site_footer": {
+		"all_rights_reserved_text": "© 2023 ChisNghiax Company, Inc. All rights reserved."
+	},
+	"single_page": {
+		"show_view_cout": true,
+		"show_comment_count": true
+	},
+	"search_page": {
+		"recommended_searches": {
+			"enable": true,
+			"title": "Recommended searches",
+			"items": [
+				{
+					"title": "Programming",
+					"url": "/search/posts/programming"
+				},
+				{
+					"title": "Design",
+					"url": "/search/posts/design"
+				},
+				{
+					"title": "Technology",
+					"url": "/search/posts/technology"
+				}
+			]
+		},
+		"show_top_categories": true,
+		"show_newsletter_section": true
+	},
+	"archive_page": {
+		"show_newsletter_section": true,
+		"show_top_categories": true
+	},
+	"author_page": {
+		"show_newsletter_section": true,
+		"show_top_categories": true
+	},
+	"post_card": {
+		"show_view_cout": false,
+		"show_comment_count": true
+	},
+	"submissions-settings": {
+		"enable": true,
+		"max_categories_allowed": 3,
+		"max_tags_allowed": 5,
+		"allow_upload_media": true,
+		"allow_upload_media_max_size_mb": 5,
+		"post_options": [
+			{
+				"name": "Schedule_Publication",
+				"label": "Schedule Publication",
+				"enable": true
+			},
+			{
+				"name": "Post_Format",
+				"label": "Post Format",
+				"enable": true,
+				"options": [
+					{
+						"name": "standard",
+						"enable": true,
+						"label": "Standard"
+					},
+					{
+						"name": "gallery",
+						"enable": true,
+						"label": "Gallery"
+					},
+					{
+						"name": "video",
+						"enable": true,
+						"label": "Video"
+					},
+					{
+						"name": "audio",
+						"enable": true,
+						"label": "Audio"
+					}
+				]
+			},
+			{
+				"name": "Allow_Comments",
+				"label": "Allow Comments",
+				"enable": true
+			},
+			{
+				"name": "Post_Style",
+				"label": "Post Style",
+				"enable": true
+			},
+			{
+				"name": "Show_Right_Sidebar",
+				"label": "Show Right Sidebar",
+				"enable": true
+			}
+		]
+	},
+	"resetPassword_page": {
+		"title": "Lost your password?",
+		"sub_title": "Enter your email below to reset your password.",
+		"blockquote": {
+			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"author": "Chis agency"
+		}
+	},
+	"signUp_page": {
+		"title": "Create an account",
+		"sub_title": "Enter your email below to create your account.",
+		"blockquote": {
+			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"author": "Chis agency"
+		}
+	},
+	"signIn_page": {
+		"title": "Sign in to your account",
+		"sub_title": "Enter your email below to sign in to your account.",
+		"blockquote": {
+			"text": "This theme has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+			"author": "Chis agency"
+		},
+		"lost_password": {
+			"is_use_lostpassword_default_of_wp": false,
+			"message": "Lost password not implemented yet! Please contact admmin for support.",
+			"url_lostpassword_default_of_wp": "https://yourwebsite.com/wp-login.php?action=lostpassword"
+		}
+	},
+	"mobile_nav_sidebar": {
+		"description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
+	},
+	"help_page": {
+		"uri": "/helps",
+		"title": "Helps",
+		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+	},
+	"contact_page": {
+		"enable": true,
+		"title": "Get in touch",
+		"sub_title": "We’d love to hear from you. Fill out the form below to get in touch with us.",
+		"form": {
+			"success_message": "🎉 Thank you for your message. We will get back to you soon.",
+			"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+		},
+		"my_contact_info": [
+			{
+				"name": "address",
+				"title": "🚀 ADDRESS",
+				"desc": "123 Main Street, New York, NY 10001"
+			},
+			{
+				"name": "email",
+				"title": "💌 EMAIL",
+				"desc": "example@example.com"
+			},
+			{
+				"name": "phone",
+				"title": "☎️ PHONE",
+				"desc": "+88 123 456 789"
+			},
+			{
+				"name": "working_hours",
+				"title": "🕒 WORKING HOURS",
+				"desc": "Mon - Fri: 9:00 - 19:00"
+			},
+			{
+				"name": "socials",
+				"title": "👋 SOCIALS"
+			}
+		]
+	},
+	"document_page": {
+		"enable": true,
+		"uri": "/documents",
+		"title": "Documents",
+		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+	},
+	"cookies_policy_page": {
+		"uri": "#"
+	},
+	"privacy_policy_page": {
+		"uri": "/privacy-policy",
+		"title": "Privacy Policy"
+	},
+
+	"empty_state": {
+		"title": "No results found.",
+		"description": "We couldn’t find any results. Try for something else."
+	}
+}

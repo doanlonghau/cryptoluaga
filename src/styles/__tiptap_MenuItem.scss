@@ -1,0 +1,15 @@
+.nc-TiptapEditor {
+	.menu-item {
+		@apply flex h-8 w-8 items-center justify-center rounded-lg border-none text-neutral-900 hover:bg-primary-100 hover:text-primary-900 sm:h-10 sm:w-10 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white;
+
+		&.is-active {
+			@apply bg-primary-100 text-primary-900 dark:bg-neutral-700 dark:text-white;
+		}
+	}
+
+	.menu-item-svg svg {
+		fill: currentColor;
+		// height: 100%;
+		// width: 100%;
+	}
+}

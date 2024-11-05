@@ -1,0 +1,166 @@
+.ProseMirror {
+	p.is-editor-empty:first-child::before {
+		@apply text-neutral-500 dark:text-neutral-400;
+		content: attr(data-placeholder);
+		float: left;
+		height: 0;
+		pointer-events: none;
+	}
+}
+
+.nc-TiptapEditor {
+	/* Basic editor styles */
+
+	.editor {
+		display: flex;
+		flex-direction: column;
+
+		.nc-iframe-wrapper {
+			overflow: hidden;
+			position: relative;
+			iframe {
+				border: none;
+			}
+			&.is-focused {
+				border: 1px solid var(--purple);
+			}
+		}
+
+		/* Youtube embed */
+		div[data-youtube-video] {
+			cursor: move;
+			padding-right: 1.5rem;
+
+			iframe {
+				border: 0.5rem solid var(--black-contrast);
+				display: block;
+				min-height: 200px;
+				min-width: 200px;
+				outline: 0px solid transparent;
+			}
+
+			&.ProseMirror-selectednode iframe {
+				outline: 3px solid var(--purple);
+				transition: outline 0.15s;
+			}
+		}
+
+		.proseMirror__image-wrapper {
+			&.ProseMirror-selectednode {
+				outline: 3px solid #68cef8;
+			}
+		}
+
+		img {
+			height: auto;
+			max-width: 100%;
+			display: block;
+			margin: 1.5rem 0;
+			&.ProseMirror-selectednode {
+				outline: 3px solid #68cef8;
+			}
+		}
+
+		&__content {
+			flex: 1 1 auto;
+			@apply px-4 py-10;
+			overflow-x: hidden;
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		&__footer {
+			align-items: center;
+			border-top: 3px solid #0d0d0d;
+			color: #0d0d0d;
+			display: flex;
+			flex: 0 0 auto;
+			font-size: 12px;
+			flex-wrap: wrap;
+			font-weight: 600;
+			justify-content: space-between;
+			padding: 0.25rem 0.75rem;
+			white-space: nowrap;
+		}
+
+		/* Some information about the status */
+		&__status {
+			align-items: center;
+			border-radius: 5px;
+			display: flex;
+
+			&::before {
+				background: rgba(#0d0d0d, 0.5);
+				border-radius: 50%;
+				content: ' ';
+				display: inline-block;
+				flex: 0 0 auto;
+				height: 0.5rem;
+				margin-right: 0.5rem;
+				width: 0.5rem;
+			}
+
+			&--connecting::before {
+				background: #616161;
+			}
+
+			&--connected::before {
+				background: #b9f18d;
+			}
+		}
+
+		&__name {
+			button {
+				background: none;
+				border: none;
+				border-radius: 0.4rem;
+				color: #0d0d0d;
+				font: inherit;
+				font-size: 12px;
+				font-weight: 600;
+				padding: 0.25rem 0.5rem;
+
+				&:hover {
+					background-color: #0d0d0d;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	/* Give a remote user a caret */
+	.collaboration-cursor__caret {
+		border-left: 1px solid #0d0d0d;
+		border-right: 1px solid #0d0d0d;
+		margin-left: -1px;
+		margin-right: -1px;
+		pointer-events: none;
+		position: relative;
+		word-break: normal;
+	}
+
+	/* Render the username above the caret */
+	.collaboration-cursor__label {
+		border-radius: 3px 3px 3px 0;
+		color: #0d0d0d;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 600;
+		left: -1px;
+		line-height: normal;
+		padding: 0.1rem 0.3rem;
+		position: absolute;
+		top: -1.4em;
+		user-select: none;
+		white-space: nowrap;
+	}
+}
+
+.attachments-browser .media-toolbar {
+	// margin-bottom: 10px;
+	// margin-top: 10px;
+	select {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
